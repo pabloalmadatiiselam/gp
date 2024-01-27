@@ -1,0 +1,456 @@
+.limpiar{
+	clear: both;
+}
+
+BODY{
+	font-family: VERDANA GENEVA ARIAL HELVETICA SANS-SERIF;
+	margin:20px auto;
+	/*min-width: 320px;
+	max-width: 980px;*/
+	width: 980px;
+	border: 3px solid #221f9e;
+	border-radius: 7px;	
+	box-shadow: -7px -9px 3px #221f9e;	
+}
+
+HEADER{
+	text-align: center;
+	background: #272727;	
+}
+
+#menubar{
+	display: none;
+}
+
+#CONTACTO{
+	background: #fff;
+	font-size: 120%;
+}
+
+#LOGO{
+width: 499px;
+float:left;
+}
+
+#SLIDER{
+	FLOAT:right;
+	width:173px;
+}
+
+#SLIDER, #SLIDER ul, #SLIDER li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#BUSCADORCAB{
+	display: none;
+}
+
+NAV{
+clear:both;
+padding-top:7px;
+padding-left:7px;
+padding-bottom: 7px;
+border-top: 2px solid #e2ae0d;
+border-bottom: 2px solid #e2ae0d;
+font-size: 120%;
+background: #221f9e;
+}
+
+#PIEPAGINA{
+	color:#cccccc;
+	clear: both;
+	text-align: center;
+	background: #221f9e;
+	border-top: 1px solid #97f803;	
+
+}
+
+
+a.ENLACENAV, a.ENLACENAV:active, a.ENLACENAV:visited, a.ENLACENAV:focus, a.ENLACENAV:link{
+	color:#fff;
+	text-decoration: underline;
+	border-top: 1px solid #;
+}
+
+a.ENLACENAV:hover{
+	color: #e2ae0d;
+}
+
+SECTION{
+	float: left;
+	width:710px;
+	font-size: 120%;
+	background-image:url("../imagenes/logotra.png");
+	background-position:110px 110px;
+	background-repeat: no-repeat;
+	padding-left:7px;
+	padding-right: 5px;
+	/*border:2px solid #272727;*/
+}
+
+ASIDE{
+	float: right;
+	width: 250px;
+	background: #221f9e;
+	margin-top:0px;
+	font-size: 120%;
+	border-right: 2px solid #e2ae0d;
+	border-left:2px solid #e2ae0d;
+	border-bottom:2px solid #e2ae0d;
+	/*background: -moz-linear-gradient(top left,#ffffff,#221f9e);
+	background: -webkit-linear-gradient(top left,#ffffff,#221f9e);
+	background: -ms-linear-gradient(top left,#ffffff,#221f9e);
+	background: -o-linear-gradient(top left,#ffffff,#221f9e);*/
+	/*box-shadow: -5px -9px 3px #221f9e;*/
+}
+
+.TITLAT{
+	margin:7px;
+	color:#e2ae0d;
+
+}
+
+#BUSCADOR,#BLOG,#EMAIL,#VISITAS,#IMPRIMIR{
+	border: 2px solid #e2ae0d;
+	padding-bottom: 5px;
+	margin:7px;
+	border-radius: 7px;
+	padding-left: 3px;
+}
+
+ASIDE A{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 110%;
+	margin-left: 7px;
+}
+
+#CAJADETEXTO{
+	float: left;
+
+}
+
+#BOTONBUSCAR{
+	margin-left:193px;
+}
+
+input{
+	border-radius: 7px;
+}
+
+#CAJADETEXTO input{
+	width: 125%;
+}
+
+h2{
+	color:#221f9e;
+	text-shadow:-3px -1px 3px #e2ae0d;
+}
+
+/*article img{
+	position:absolute;
+	top:310px;	
+	left:350px;
+}*/
+
+TABLE{
+	margin:auto;
+	border:1px solid #221f9e;
+}
+
+TABLE TD{
+		border:1px solid #221f9e;
+}
+
+TABLE THEAD{
+	background: #221f9e;
+	color:#e2ae0d;
+}
+
+.TABLA-DETALLE{
+	border: 3PX;
+}
+
+#IMD IMG{
+	/*float: right;*/
+	/*position:absolute;
+	top:500px;
+	left:500px;*/
+}
+
+#IMD{
+	margin: auto;	
+	text-align: center;	
+}
+
+#TAD TABLE TD{
+	border:0px;
+	width: 900px;
+} 
+
+#TAD TABLE{
+	border:0px;
+	margin:7px 7px 17px 7px;	
+	display:block;
+}  
+
+#TAD TH{
+	color:#e2ae0d;
+	/*text-decoration: underline;*/
+	text-align: left;
+	background: #221f9e;
+}
+
+.menupie{
+	display: none;
+}
+
+#resbus{
+	margin-top: 17px;
+	margin-left: 7px;
+}
+.titresbus{
+	margin-left: 7px;
+	color:#221f9e;
+	text-shadow:-3px -1px 3px #e2ae0d;
+}
+/***Diseño para tabletas 768***/
+@media only screen and (max-width:768px){
+	BODY{
+		margin: 15px;
+		width: 97%;
+	}
+
+	HEADER{
+	height: auto;
+	background: #fff;		
+	}
+
+	#LOGO{
+		height: auto;		
+		width: 65%;
+		float: left;
+	}
+
+	#CONTACTO{
+		display:none;
+	}
+
+	#SLIDER{
+		display: none;
+	}
+	SECTION{
+		float: none;
+	}
+	ASIDE{
+		display: none;			
+	}
+	#BUSCADOR{
+        display: none;
+        }
+	#BUSCADORCAB{
+		display:block;
+		width:30%;
+		float:right;
+		margin-top: 17px;
+		margin-right:7px;
+		background: #221f9e;
+		padding: 3px;
+		border-radius: 7px;				
+	}
+
+	#BUSCADORCAB #CAJADETEXTOCAB{
+		float: left;			
+	}
+
+	#BUSCADORCAB #BOTONBUSCARCAB{
+		float: right;;
+	}
+
+	#BUSCADORCAB #CAJADETEXTOCAB INPUT{
+		width: 123%;
+	}
+
+	#PIEPAGINA{
+		 background: #221f9e;
+	}
+	#PIEPAGINA .menupie{
+		display: block;
+		width: 100%;
+		list-style: none;
+		margin:0px;
+		padding: 0px;
+		padding-top: 10px;
+		margin-bottom:10px;
+		/*background: #ff0000;*/
+		overflow: hidden;						
+	}	
+	
+	#PIEPAGINA .menupie li{
+		float: left;
+	}
+	
+	#PIEPAGINA .menupie li a{
+		color: #fff;
+		padding: 0 7px;
+		font-size: 120%;
+	}
+
+	TABLE{
+		margin-bottom: 10px;				
+	}	
+}
+
+@media only screen and (max-width: 480px){
+	BODY{
+		margin: 8px;	
+		width: 96%;	
+	}
+	#LOGO{
+		width: 97%;
+		float: none;
+	}
+
+	#LOGO IMG{
+		width: 100%;		
+	}
+	#BUSCADORCAB{
+		width: 100%;
+		float: none;		
+		overflow: hidden;
+		border-radius: 0px;
+                margin-right:0px;                
+		/*padding: 10px;*/
+                padding-right:0px;
+	}
+
+	#BUSCADORCAB #CAJADETEXTOCAB{
+		float: left;
+                width: 78%;
+                
+	}
+
+	#BUSCADORCAB #CAJADETEXTOCAB INPUT{
+		width: 100%;
+                /*width:267px;*/
+	}
+
+	#BUSCADORCAB #BOTONBUSCARCAB{
+		float: right;
+                width: 15%;
+		margin-right: 10px;
+	} 
+        #BUSCADORCAB #BOTONBUSCARCAB input{
+           width:100%;
+        }
+
+	NAV{
+		background: #fff;
+                padding-right:7px;
+	}
+
+	NAV a{
+		display: block;
+		margin-top:7px;
+		background: #221f9e;
+		padding: 5px;
+		margin-right: 7px;
+		width: 97%;
+	}
+
+	SECTION{
+		width: 97%;
+	}
+
+	#menubar{
+		display: block;
+		width: 100%;
+		border-top: 3px solid #e2ae0d;
+		border-bottom:3px solid #e2ae0d; 
+		overflow: hidden;
+		padding:10px;
+		background: #fff;
+		font-weight: bold;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		}
+
+	#menutext{
+		float: left;
+		font-size:25px;
+		color:#221f9e;
+	}
+
+	#bt-menu{
+		display: block;
+		padding-top:10px;	
+		font-weight: bold;	
+		text-decoration: none;	
+		float: right;	
+	}
+
+	TABLE{
+		font-size: 87%;
+	}
+}
+
+/***Diseño para móviles 320***/
+@media only screen and (max-width:320px){
+	
+        #LOGO IMG{
+		width:68%;
+		height:48%;
+	}
+        /*
+	#BUSCADORCAB{
+		background: #221f9e;
+                width:93%;
+                
+	}
+        
+	#BUSCADORCAB #CAJADETEXTOCAB{
+         width:93%;
+        }
+	#BUSCADORCAB #CAJADETEXTOCAB INPUT{
+		/*width: 245px;*/
+                width:90%;
+	}
+        */
+
+	NAV{
+		font-size:100%;
+	}
+        /*
+	NAV a{
+		width: 93%;
+
+	}
+        */
+
+	TABLE{
+		font-size: 80%;
+	}
+
+}
+
+/***Diseño para móviles 240***/
+@media only screen and (max-width:240px){
+	BODY{
+		width:94%;
+		font-size: 90%;
+	}
+	#BUSCADORCAB #CAJADETEXTOCAB INPUT{
+		width: 167px;
+	}
+	#PIEPAGINA .menupie li a{
+		font-size: 100%;
+	}
+
+	TABLE{
+		font-size: 60%;
+	}
+
+}
